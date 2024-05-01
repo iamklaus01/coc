@@ -417,11 +417,25 @@ h6,
     .banner-title {
         font-size: 48px;
     }
+    
+}
+
+/* Media query when the screen is more than lg screen */
+@media (min-width: 992px) {
+    .text-on-hero{
+        margin-top: -20rem;
+    }
 }
 
 @media (max-width: 575px) {
     .banner-title {
         font-size: 32px;
+    }
+    .navbar-brand{
+        width: 60%;
+    }
+    .navbar-brand .about-h1{
+        font-size: 18px;
     }
 }
 
