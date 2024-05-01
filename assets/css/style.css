@@ -435,7 +435,10 @@ h6,
         width: 60%;
     }
     .navbar-brand .about-h1{
-        font-size: 18px;
+        font-size: 18px !important;
+    }
+    .navbar-brand .index-h1{
+        font-size: 25px !important;
     }
 }
 
