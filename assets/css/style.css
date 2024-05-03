@@ -438,10 +438,12 @@ h6,
         font-size: 18px !important;
     }
     .navbar-brand .index-h1{
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
 }
-
+.about-h1{
+    font-size: 30px;
+}
 .banner-text {
     position: absolute;
     top: 50%;
